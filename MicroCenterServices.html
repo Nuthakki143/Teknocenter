@@ -1,0 +1,1098 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teknocenter Services</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="MicroCenterServices.css">
+ 
+</head>
+<body class="container-fluid">
+    <header>
+        <!--navbar code start-->
+         <div class="navbar">
+            <div style="background-color: black;">
+                <div>
+                  <a href="homepage.html">  <img class="micro-center-name-image-width"
+                        src="teknocenetrlogo.png"
+                        alt="Micro Center"></a>
+                </div>
+            </div>
+ 
+            <div class="nav-search">
+                <input placeholder="Search Keyword" class="serach-input">
+                 <div class="search-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                  </svg>
+                 </div>
+            </div>
+ 
+            <div class="flex-container border1" onmouseenter="showTable()" onmouseleave="hideTable()">
+              <div>
+                <ul>
+                  <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="50" fill="currentColor" class="bi bi-shop-window" viewBox="0 0 16 16">
+                      <path d="M2.97 1.35A1 1 0 0 1 3.73 1h8.54a1 1 0 0 1 .76.35l2.609 3.044A1.5 1.5 0 0 1 16 5.37v.255a2.375 2.375 0 0 1-4.25 1.458A2.37 2.37 0 0 1 9.875 8 2.37 2.37 0 0 1 8 7.083 2.37 2.37 0 0 1 6.125 8a2.37 2.37 0 0 1-1.875-.917A2.375 2.375 0 0 1 0 5.625V5.37a1.5 1.5 0 0 1 .361-.976zm1.78 4.275a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 1 0 2.75 0V5.37a.5.5 0 0 0-.12-.325L12.27 2H3.73L1.12 5.045A.5.5 0 0 0 1 5.37v.255a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0M1.5 8.5A.5.5 0 0 1 2 9v6h12V9a.5.5 0 0 1 1 0v6h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V9a.5.5 0 0 1 .5-.5m2 .5a.5.5 0 0 1 .5.5V13h8V9.5a.5.5 0 0 1 1 0V13a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9.5a.5.5 0 0 1 .5-.5"/>
+                    </svg>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <ul style="text-align: center; padding-left: 5px;">
+                  <li>Store</li>
+                  <li>Locations</li>
+                </ul>
+              </div>
+              <div>
+                <ul>
+                  <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="50" fill="currentColor" class="bi bi-arrow-down-short" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4"/>
+                    </svg>
+                  </li>
+                </ul>
+              </div>
+              <!-- Table with two rows -->
+              <div class="table-container" id="tableContainer">
+                  <table>
+                      <tr>
+                      <td style="color:blue; width: 105px;"><label for="state">Select State</label></td>
+                      <td>
+                          <select name="state" id="state" style="width: 130px;">
+                          <option value="None">Select State</option>
+                          <!-- States will be populated dynamically based on the selected country -->
+                          </select>
+                      </td>
+                      </tr>
+                  </table>
+                  <table style="margin-top: 2%;">
+                      <tr>
+                      <td>
+                          <input style="width: 100px;" type="text" id="zipCode" placeholder="Enter Zip Code" required pattern="[0-9]*" title="Please enter only numbers">
+                      </td>
+                      <td><button style="width: 150px; background-color: blue; color: white; padding: 1%;">Find Nearest Store</button></td>
+                      </tr>
+                  </table>
+              </div>
+            </div>
+         
+          <div class="nav-signin border1">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="50" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+                <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+              </svg>
+              <p style="margin-top: 8%;"><span style="color: white; padding-left: 5px;">Hello, sign in</span></p>
+              <div class="custom-tooltip">
+                  <button style="width: 100px; background-color: blue;"><a style="color: white;" href="login.html">Login</a></button>
+                  <a href="registration.html">Create Account</a>
+              </div>
+          </div>
+          <div class="flex-container border1">
+            <div>
+              <ul>
+                <li>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="50" fill="currentColor" class="bi bi-cart-check-fill" viewBox="0 0 16 16">
+                    <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0m7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0m-1.646-7.646-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L8 8.293l2.646-2.647a.5.5 0 0 1 .708.708"/>
+                  </svg>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <ul style="text-align: center;">
+                <li>Cart</li>
+                <li>& Lists</li>
+              </ul>
+            </div>
+          </div>
+         </div>
+         <!--navbar code end-->
+ 
+         <!--All dashboard code start-->
+         
+<div class="panel">
+  <div class="panel-all">
+      <i class="fa-solid fa-bars"></i>
+      All
+      <div class="hover-menu">
+          <ul>
+              <li><a href="#">Top Deals <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
+              </svg></a></li>
+              <li><a href="#">PC Parts <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
+              </svg></a>
+              
+              <div>
+                  <ul id="PCmenu">
+                      <div style="display: flex;">
+                          <div >
+                              <li style="text-decoration: underline;"><b>Processors/CPUs</b></li>                                   
+                              <li><a href="#">All Processors</a></li>
+                              <li><a href="#">AMD Processors	</a></li>
+                              <li><a href="#">Intel Processors</a></li>
+                              <li><a href="#">AMD Motherboard Bundles</a></li>
+                              <li><a href="#">Intel Motherboard Bundles</a></li>  
+                          </div>
+                          <div >
+                              <li style="text-decoration: underline;"><b>Motherboards</b></li>
+                              <li><a href="#">All Motherboards</a></li>
+                              <li><a href="#">AMD Motherboards</a></li>
+                              <li><a href="#">Intel Motherboards</a></li>
+                              <li><a href="#">Barebone PCs</a></li> 
+                          </div>   
+                          <div >
+                              <li style="text-decoration: underline;"><b>Computer Memory</b></li>
+                              <li><a href="#">All Computers Memory</a></li>
+                              <li><a href="#">Desktop Memory</a></li>
+                              <li><a href="#">Laptop Memory</a></li>
+                              <li><a href="#">Mac Memory</a></li> 
+                          </div>   
+                      </div>
+                      <div style="display: flex;">
+                          <div >
+                              <li style="text-decoration: underline;"><b>Graphics Cards & Accessories</b></li>                                   
+                              <li><a href="#">Graphics Cards</a></li>
+                              <li><a href="#">Graphics Card Accessories</a></li>
+                              <li><a href="#">TV Tuners, Scan Converters</a></li>
+                              <li><a href="#">GPU Trade-in Program</a></li>
+                          </div>
+                          <div >
+                              <li style="text-decoration: underline;"><b>Drives & Storage</b></li>
+                              <li><a href="#">All Storage</a></li>
+                              <li><a href="#">Internal SSDs</a></li>
+                              <li><a href="#">External SSDs</a></li>
+                              <li><a href="#">Internal Hard Drives</a></li> 
+                              <li><a href="#">External Hard Drives</a></li>
+                              <li><a href="#">Network Attached Storage</a></li>
+                              <li><a href="#">CD/DVD/Blu-ray Drives</a></li>
+                          </div>   
+                          <div >
+                              <li style="text-decoration: underline;"><b>Cases & Accessories</b></li>
+                              <li><a href="#">Desktop Cases</a></li>
+                              <li><a href="#">Power Supplies</a></li>
+                              <li><a href="#">Driver Enclosures/Trays</a></li>
+                              <li><a href="#">Case Accessories</a></li> 
+                              <li><a href="#">System Cables</a></li> 
+                          </div>   
+                      </div>
+                      <div style="display: flex;">
+                          <div >
+                              <li style="text-decoration: underline;"><b>Air & Water Cooling</b></li>                                   
+                              <li><a href="#">All Air & Water Cooling	</a></li>
+                              <li><a href="#">Cases Fans & Coolers	</a></li>
+                              <li><a href="#">CPU Fans & Heatsinks</a></li>
+                              <li><a href="#">Thermal Compound, Paste	</a></li>
+                              <li><a href="#">Water Cooling Kits</a></li>
+                              <li><a href="#">Water Cooling Accessories</a></li>
+                          </div>
+                          <div >
+                              <li style="text-decoration: underline;"><b>Expansion Cards </b></li>
+                              <li><a href="#">Sound Cards</a></li>
+                              <li><a href="#">IDE/SATA Controllers</a></li>
+                              <li><a href="#">USB & Firewire Controllers</a></li>
+                              <li><a href="#">Parallel & Serial Cards</a></li> 
+                              <li><a href="#">I/O Adapters</a></li>
+                          </div>   
+                          <div>
+                              <li style="text-decoration: underline;"><b>Laptop Parts</b></li>
+                              <li><a href="#">Replacement Screens</a></li>
+                              <li><a href="#">Laptop Batteries</a></li> 
+                          </div>   
+                      </div>      
+                   </ul>
+               </div>
+          </li>
+              
+              
+              
+
+              <li><a href="#">PC Builders <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
+              </svg></a>
+                      <div>
+                          <ul id="PCBuilders">
+                              <div style="display: flex;">
+                                  <div >
+                                      <li style="text-decoration: underline;"><b>Build a Custom PC</b></li>                                   
+                                      <li><a href="#">Custom PC Builder</a></li>
+                                      <li><a href="#">Custom PC with Intel</a></li>
+                                      <li><a href="#">Custom PC with AMD</a></li>  
+                                  </div>
+                                  <div >
+                                      <li style="text-decoration: underline;"><b>Streaming & Gaming</b></li>
+                                      <li><a href="#">Creator Studio Builder</a></li>
+                                      <li><a href="#">Racing Sim Builder</a></li>
+                                      </div>   
+                                  <div >
+                                      <li style="text-decoration: underline;"><b>Showcase</b></li>
+                                      <li><a href="#">See Completed Build</a></li>
+                                      <li><a href="#">Add Your Completed Build</a></li>
+                                      <li><a href="#">My Build Dashboard</a></li>
+                                      </div>   
+                              </div>
+
+                          </ul>
+                      </div>
+                  </li>
+              <li><a href="#">Computers <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
+              </svg></a>
+                  <div>
+                      <ul id="Computers">
+                          <div style="display: flex;">
+                              <div >
+                                  <li style="text-decoration: underline;"><b>Graphics Cards & Accessories</b></li>                                   
+                                  <li><a href="#">Graphics Cards</a></li>
+                                  <li><a href="#">Graphics Card Accessories</a></li>
+                                  <li><a href="#">TV Tuners, Scan Converters</a></li>
+                                  <li><a href="#">GPU Trade-in Program</a></li>
+                              </div>
+                              <div >
+                                  <li style="text-decoration: underline;"><b>Drives & Storage</b></li>
+                                  <li><a href="#">All Storage</a></li>
+                                  <li><a href="#">Internal SSDs</a></li>
+                                  <li><a href="#">External SSDs</a></li>
+                                  <li><a href="#">Internal Hard Drives</a></li> 
+                                  <li><a href="#">External Hard Drives</a></li>
+                                  <li><a href="#">Network Attached Storage</a></li>
+                                  <li><a href="#">CD/DVD/Blu-ray Drives</a></li>
+                              </div>   
+                              <div >
+                                  <li style="text-decoration: underline;"><b>Cases & Accessories</b></li>
+                                  <li><a href="#">Desktop Cases</a></li>
+                                  <li><a href="#">Power Supplies</a></li>
+                                  <li><a href="#">Driver Enclosures/Trays</a></li>
+                                  <li><a href="#">Case Accessories</a></li> 
+                                  <li><a href="#">System Cables</a></li> 
+                              </div>   
+                          </div>
+
+                      </ul>
+                  </div>
+              </li>
+              <li><a href="#">Apple <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
+              </svg></a>
+                  <div>
+                      <ul id="Apple">
+                          <div style="display: flex;">
+                              <div >
+                                  <li style="text-decoration: underline;"><b>Air & Water Cooling</b></li>                                   
+                                  <li><a href="#">All Air & Water Cooling	</a></li>
+                                  <li><a href="#">Cases Fans & Coolers	</a></li>
+                                  <li><a href="#">CPU Fans & Heatsinks</a></li>
+                                  <li><a href="#">Thermal Compound, Paste	</a></li>
+                                  <li><a href="#">Water Cooling Kits</a></li>
+                                  <li><a href="#">Water Cooling Accessories</a></li>
+                              </div>
+                              <div >
+                                  <li style="text-decoration: underline;"><b>Expansion Cards </b></li>
+                                  <li><a href="#">Sound Cards</a></li>
+                                  <li><a href="#">IDE/SATA Controllers</a></li>
+                                  <li><a href="#">USB & Firewire Controllers</a></li>
+                                  <li><a href="#">Parallel & Serial Cards</a></li> 
+                                  <li><a href="#">I/O Adapters</a></li>
+                              </div>   
+                              <div>
+                                  <li style="text-decoration: underline;"><b>Laptop Parts</b></li>
+                                  <li><a href="#">Replacement Screens</a></li>
+                                  <li><a href="#">Laptop Batteries</a></li> 
+                              </div>   
+                          </div> 
+
+                      </ul>
+                  </div>            
+              </li>
+              <li><a href="#">Electronics <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
+              </svg></a>
+                  <div>
+                      <ul id="Electronics">
+                          <div style="display: flex;">
+                              <div >
+                                  <li style="text-decoration: underline;"><b>Build a Custom PC</b></li>                                   
+                                  <li><a href="#">Custom PC Builder</a></li>
+                                  <li><a href="#">Custom PC with Intel</a></li>
+                                  <li><a href="#">Custom PC with AMD</a></li>  
+                              </div>
+                              <div >
+                                  <li style="text-decoration: underline;"><b>Streaming & Gaming</b></li>
+                                  <li><a href="#">Creator Studio Builder</a></li>
+                                  <li><a href="#">Racing Sim Builder</a></li>
+                                  </div>   
+                              <div >
+                                  <li style="text-decoration: underline;"><b>Showcase</b></li>
+                                  <li><a href="#">See Completed Build</a></li>
+                                  <li><a href="#">Add Your Completed Build</a></li>
+                                  <li><a href="#">My Build Dashboard</a></li>
+                                  </div>   
+                          </div>
+                      </ul>
+                  </div>
+              </li>
+              <li><a href="#">Maker/STEM <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
+              </svg></a>
+                  <div>
+                      <ul id="Maker">
+                          <div style="display: flex;">
+                              <div >
+                                  <li style="text-decoration: underline;"><b>Graphics Cards & Accessories</b></li>                                   
+                                  <li><a href="#">Graphics Cards</a></li>
+                                  <li><a href="#">Graphics Card Accessories</a></li>
+                                  <li><a href="#">TV Tuners, Scan Converters</a></li>
+                                  <li><a href="#">GPU Trade-in Program</a></li>
+                              </div>
+                              <div >
+                                  <li style="text-decoration: underline;"><b>Drives & Storage</b></li>
+                                  <li><a href="#">All Storage</a></li>
+                                  <li><a href="#">Internal SSDs</a></li>
+                                  <li><a href="#">External SSDs</a></li>
+                                  <li><a href="#">Internal Hard Drives</a></li> 
+                                  <li><a href="#">External Hard Drives</a></li>
+                                  <li><a href="#">Network Attached Storage</a></li>
+                                  <li><a href="#">CD/DVD/Blu-ray Drives</a></li>
+                              </div>   
+                              <div >
+                                  <li style="text-decoration: underline;"><b>Cases & Accessories</b></li>
+                                  <li><a href="#">Desktop Cases</a></li>
+                                  <li><a href="#">Power Supplies</a></li>
+                                  <li><a href="#">Driver Enclosures/Trays</a></li>
+                                  <li><a href="#">Case Accessories</a></li> 
+                                  <li><a href="#">System Cables</a></li> 
+                              </div>   
+                          </div>
+                          <div style="display: flex;">
+                              <div >
+                                  <li style="text-decoration: underline;"><b>Graphics Cards & Accessories</b></li>                                   
+                                  <li><a href="#">Graphics Cards</a></li>
+                                  <li><a href="#">Graphics Card Accessories</a></li>
+                                  <li><a href="#">TV Tuners, Scan Converters</a></li>
+                                  <li><a href="#">GPU Trade-in Program</a></li>
+                              </div>
+                              <div >
+                                  <li style="text-decoration: underline;"><b>Drives & Storage</b></li>
+                                  <li><a href="#">All Storage</a></li>
+                                  <li><a href="#">Internal SSDs</a></li>
+                                  <li><a href="#">External SSDs</a></li>
+                                  <li><a href="#">Internal Hard Drives</a></li> 
+                                  <li><a href="#">External Hard Drives</a></li>
+                                  <li><a href="#">Network Attached Storage</a></li>
+                                  <li><a href="#">CD/DVD/Blu-ray Drives</a></li>
+                              </div>   
+                              <div >
+                                  <li style="text-decoration: underline;"><b>Cases & Accessories</b></li>
+                                  <li><a href="#">Desktop Cases</a></li>
+                                  <li><a href="#">Power Supplies</a></li>
+                                  <li><a href="#">Driver Enclosures/Trays</a></li>
+                                  <li><a href="#">Case Accessories</a></li> 
+                                  <li><a href="#">System Cables</a></li> 
+                              </div>   
+                          </div>
+
+                      </ul>
+                  </div>
+              </li>
+              <li><a href="#">Networking <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
+              </svg></a>
+                  <div>
+                      <ul id="Networking">
+                          <div style="display: flex;">
+                              <div >
+                                  <li style="text-decoration: underline;"><b>Air & Water Cooling</b></li>                                   
+                                  <li><a href="#">All Air & Water Cooling	</a></li>
+                                  <li><a href="#">Cases Fans & Coolers	</a></li>
+                                  <li><a href="#">CPU Fans & Heatsinks</a></li>
+                                  <li><a href="#">Thermal Compound, Paste	</a></li>
+                                  <li><a href="#">Water Cooling Kits</a></li>
+                                  <li><a href="#">Water Cooling Accessories</a></li>
+                              </div>
+                              <div >
+                                  <li style="text-decoration: underline;"><b>Expansion Cards </b></li>
+                                  <li><a href="#">Sound Cards</a></li>
+                                  <li><a href="#">IDE/SATA Controllers</a></li>
+                                  <li><a href="#">USB & Firewire Controllers</a></li>
+                                  <li><a href="#">Parallel & Serial Cards</a></li> 
+                                  <li><a href="#">I/O Adapters</a></li>
+                              </div>   
+                              <div>
+                                  <li style="text-decoration: underline;"><b>Laptop Parts</b></li>
+                                  <li><a href="#">Replacement Screens</a></li>
+                                  <li><a href="#">Laptop Batteries</a></li> 
+                              </div>   
+                          </div> 
+
+                      </ul>
+                  </div>  
+              </li>
+              <li><a href="#">Accessories <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
+              </svg></a>
+                  <div>
+                      <ul id="Accessories">
+                          <div style="display: flex;">
+                              <div >
+                                  <li style="text-decoration: underline;"><b>Air & Water Cooling</b></li>                                   
+                                  <li><a href="#">All Air & Water Cooling	</a></li>
+                                  <li><a href="#">Cases Fans & Coolers	</a></li>
+                                  <li><a href="#">CPU Fans & Heatsinks</a></li>
+                                  <li><a href="#">Thermal Compound, Paste	</a></li>
+                                  <li><a href="#">Water Cooling Kits</a></li>
+                                  <li><a href="#">Water Cooling Accessories</a></li>
+                              </div>
+                              <div >
+                                  <li style="text-decoration: underline;"><b>Expansion Cards </b></li>
+                                  <li><a href="#">Sound Cards</a></li>
+                                  <li><a href="#">IDE/SATA Controllers</a></li>
+                                  <li><a href="#">USB & Firewire Controllers</a></li>
+                                  <li><a href="#">Parallel & Serial Cards</a></li> 
+                                  <li><a href="#">I/O Adapters</a></li>
+                              </div>   
+                              <div>
+                                  <li style="text-decoration: underline;"><b>Laptop Parts</b></li>
+                                  <li><a href="#">Replacement Screens</a></li>
+                                  <li><a href="#">Laptop Batteries</a></li> 
+                              </div>   
+                          </div> 
+                          <div style="display: flex;">
+                              <div >
+                                  <li style="text-decoration: underline;"><b>Air & Water Cooling</b></li>                                   
+                                  <li><a href="#">All Air & Water Cooling	</a></li>
+                                  <li><a href="#">Cases Fans & Coolers	</a></li>
+                                  <li><a href="#">CPU Fans & Heatsinks</a></li>
+                                  <li><a href="#">Thermal Compound, Paste	</a></li>
+                                  <li><a href="#">Water Cooling Kits</a></li>
+                                  <li><a href="#">Water Cooling Accessories</a></li>
+                              </div>
+                              <div >
+                                  <li style="text-decoration: underline;"><b>Expansion Cards </b></li>
+                                  <li><a href="#">Sound Cards</a></li>
+                                  <li><a href="#">IDE/SATA Controllers</a></li>
+                                  <li><a href="#">USB & Firewire Controllers</a></li>
+                                  <li><a href="#">Parallel & Serial Cards</a></li> 
+                                  <li><a href="#">I/O Adapters</a></li>
+                              </div>   
+                              <div>
+                                  <li style="text-decoration: underline;"><b>Laptop Parts</b></li>
+                                  <li><a href="#">Replacement Screens</a></li>
+                                  <li><a href="#">Laptop Batteries</a></li> 
+                              </div>   
+                          </div> 
+
+                      </ul>
+                  </div>  
+              </li>
+              <li><a href="#">Gaming & Software <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
+              </svg></a>
+                  <div>
+                      <ul id="Gaming">
+                          <div style="display: flex;">
+                              <div >
+                                  <li style="text-decoration: underline;"><b>Air & Water Cooling</b></li>                                   
+                                  <li><a href="#">All Air & Water Cooling	</a></li>
+                                  <li><a href="#">Cases Fans & Coolers	</a></li>
+                                  <li><a href="#">CPU Fans & Heatsinks</a></li>
+                                  <li><a href="#">Thermal Compound, Paste	</a></li>
+                                  <li><a href="#">Water Cooling Kits</a></li>
+                                  <li><a href="#">Water Cooling Accessories</a></li>
+                              </div>
+                              <div >
+                                  <li style="text-decoration: underline;"><b>Expansion Cards </b></li>
+                                  <li><a href="#">Sound Cards</a></li>
+                                  <li><a href="#">IDE/SATA Controllers</a></li>
+                                  <li><a href="#">USB & Firewire Controllers</a></li>
+                                  <li><a href="#">Parallel & Serial Cards</a></li> 
+                                  <li><a href="#">I/O Adapters</a></li>
+                              </div>   
+                              <div>
+                                  <li style="text-decoration: underline;"><b>Laptop Parts</b></li>
+                                  <li><a href="#">Replacement Screens</a></li>
+                                  <li><a href="#">Laptop Batteries</a></li> 
+                              </div>   
+                          </div> 
+
+                      </ul>
+                  </div>  
+              </li>
+              <li><a href="#">Laptop Batteries <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
+              </svg></a>
+                  <div>
+                      <ul id="LaptopBatteries">
+                          <div style="display: flex;">
+                              <div >
+                                  <li style="text-decoration: underline;"><b>Graphics Cards & Accessories</b></li>                                   
+                                  <li><a href="#">Graphics Cards</a></li>
+                                  <li><a href="#">Graphics Card Accessories</a></li>
+                                  <li><a href="#">TV Tuners, Scan Converters</a></li>
+                                  <li><a href="#">GPU Trade-in Program</a></li>
+                              </div>
+                              <div >
+                                  <li style="text-decoration: underline;"><b>Drives & Storage</b></li>
+                                  <li><a href="#">All Storage</a></li>
+                                  <li><a href="#">Internal SSDs</a></li>
+                                  <li><a href="#">External SSDs</a></li>
+                                  <li><a href="#">Internal Hard Drives</a></li> 
+                                  <li><a href="#">External Hard Drives</a></li>
+                                  <li><a href="#">Network Attached Storage</a></li>
+                                  <li><a href="#">CD/DVD/Blu-ray Drives</a></li>
+                              </div>   
+                              <div >
+                                  <li style="text-decoration: underline;"><b>Cases & Accessories</b></li>
+                                  <li><a href="#">Desktop Cases</a></li>
+                                  <li><a href="#">Power Supplies</a></li>
+                                  <li><a href="#">Driver Enclosures/Trays</a></li>
+                                  <li><a href="#">Case Accessories</a></li> 
+                                  <li><a href="#">System Cables</a></li> 
+                              </div>   
+                          </div>
+                          <div style="display: flex;">
+                              <div >
+                                  <li style="text-decoration: underline;"><b>Graphics Cards & Accessories</b></li>                                   
+                                  <li><a href="#">Graphics Cards</a></li>
+                                  <li><a href="#">Graphics Card Accessories</a></li>
+                                  <li><a href="#">TV Tuners, Scan Converters</a></li>
+                                  <li><a href="#">GPU Trade-in Program</a></li>
+                              </div>
+                              <div >
+                                  <li style="text-decoration: underline;"><b>Drives & Storage</b></li>
+                                  <li><a href="#">All Storage</a></li>
+                                  <li><a href="#">Internal SSDs</a></li>
+                                  <li><a href="#">External SSDs</a></li>
+                                  <li><a href="#">Internal Hard Drives</a></li> 
+                                  <li><a href="#">External Hard Drives</a></li>
+                                  <li><a href="#">Network Attached Storage</a></li>
+                                  <li><a href="#">CD/DVD/Blu-ray Drives</a></li>
+                              </div>   
+                              <div >
+                                  <li style="text-decoration: underline;"><b>Cases & Accessories</b></li>
+                                  <li><a href="#">Desktop Cases</a></li>
+                                  <li><a href="#">Power Supplies</a></li>
+                                  <li><a href="#">Driver Enclosures/Trays</a></li>
+                                  <li><a href="#">Case Accessories</a></li> 
+                                  <li><a href="#">System Cables</a></li> 
+                              </div>   
+                          </div>
+
+                      </ul>
+                  </div>        
+              </li>
+              <li><a href="#">Clearance <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
+              </svg></a>
+                  <div>
+                      <ul id="Clearance">
+                          <div style="display: flex;">
+                              <div >
+                                  <li style="text-decoration: underline;"><b>Graphics Cards & Accessories</b></li>                                   
+                                  <li><a href="#">Graphics Cards</a></li>
+                                  <li><a href="#">Graphics Card Accessories</a></li>
+                                  <li><a href="#">TV Tuners, Scan Converters</a></li>
+                                  <li><a href="#">GPU Trade-in Program</a></li>
+                              </div>
+                              <div >
+                                  <li style="text-decoration: underline;"><b>Cases & Accessories</b></li>
+                                  <li><a href="#">Desktop Cases</a></li>
+                                  <li><a href="#">Power Supplies</a></li>
+                                  <li><a href="#">Driver Enclosures/Trays</a></li>
+                                  <li><a href="#">Case Accessories</a></li> 
+                                  <li><a href="#">System Cables</a></li> 
+                              </div>   
+                          </div>
+                          <div style="display: flex;">
+                              <div >
+                                  <li style="text-decoration: underline;"><b>Graphics Cards & Accessories</b></li>                                   
+                                  <li><a href="#">Graphics Cards</a></li>
+                                  <li><a href="#">Graphics Card Accessories</a></li>
+                                  <li><a href="#">TV Tuners, Scan Converters</a></li>
+                                  <li><a href="#">GPU Trade-in Program</a></li>
+                              </div>
+                              <div >
+                                  <li style="text-decoration: underline;"><b>Drives & Storage</b></li>
+                                  <li><a href="#">All Storage</a></li>
+                                  <li><a href="#">Internal SSDs</a></li>
+                                  <li><a href="#">External SSDs</a></li>
+                                  <li><a href="#">Internal Hard Drives</a></li> 
+                                  <li><a href="#">External Hard Drives</a></li>
+                                  <li><a href="#">Network Attached Storage</a></li>
+                                  <li><a href="#">CD/DVD/Blu-ray Drives</a></li>
+                              </div>   
+                              <div >
+                                  <li style="text-decoration: underline;"><b>Cases & Accessories</b></li>
+                                  <li><a href="#">Desktop Cases</a></li>
+                                  <li><a href="#">Power Supplies</a></li>
+                                  <li><a href="#">Driver Enclosures/Trays</a></li>
+                                  <li><a href="#">Case Accessories</a></li> 
+                                  <li><a href="#">System Cables</a></li> 
+                              </div>   
+                          </div>
+
+                      </ul>
+                  </div>
+              </li>
+              <li><a href="#">Refurbished <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
+              </svg></a>
+                  <div>
+                      <ul id="Refurbished">
+                          <div style="display: flex;">
+                              <div >
+                                  <li style="text-decoration: underline;"><b>Air & Water Cooling</b></li>                                   
+                                  <li><a href="#">All Air & Water Cooling	</a></li>
+                                  <li><a href="#">Cases Fans & Coolers	</a></li>
+                                  <li><a href="#">CPU Fans & Heatsinks</a></li>
+                                  <li><a href="#">Thermal Compound, Paste	</a></li>
+                                  <li><a href="#">Water Cooling Kits</a></li>
+                                  <li><a href="#">Water Cooling Accessories</a></li>
+                              </div>
+                              <div >
+                                  <li style="text-decoration: underline;"><b>Expansion Cards </b></li>
+                                  <li><a href="#">Sound Cards</a></li>
+                                  <li><a href="#">IDE/SATA Controllers</a></li>
+                                  <li><a href="#">USB & Firewire Controllers</a></li>
+                                  <li><a href="#">Parallel & Serial Cards</a></li> 
+                                  <li><a href="#">I/O Adapters</a></li>
+                              </div>     
+                          </div> 
+
+                      </ul>
+                  </div>  
+              </li>
+              <li><a href="#">Brands <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
+              </svg></a>
+                  <div>
+                      <ul id="Brands">
+                          <div style="display: flex;">
+                              <div >
+                                  <li style="text-decoration: underline;"><b>Air & Water Cooling</b></li>                                   
+                                  <li><a href="#">All Air & Water Cooling	</a></li>
+                                  <li><a href="#">Cases Fans & Coolers	</a></li>
+                                  <li><a href="#">CPU Fans & Heatsinks</a></li>
+                                  <li><a href="#">Thermal Compound, Paste	</a></li>
+                                  <li><a href="#">Water Cooling Kits</a></li>
+                                  <li><a href="#">Water Cooling Accessories</a></li>
+                              </div>
+                              <div >
+                                  <li style="text-decoration: underline;"><b>Expansion Cards </b></li>
+                                  <li><a href="#">Sound Cards</a></li>
+                                  <li><a href="#">IDE/SATA Controllers</a></li>
+                                  <li><a href="#">USB & Firewire Controllers</a></li>
+                                  <li><a href="#">Parallel & Serial Cards</a></li> 
+                                  <li><a href="#">I/O Adapters</a></li>
+                              </div>   
+                              <div>
+                                  <li style="text-decoration: underline;"><b>Laptop Parts</b></li>
+                                  <li><a href="#">Replacement Screens</a></li>
+                                  <li><a href="#">Laptop Batteries</a></li> 
+                              </div>   
+                          </div> 
+                          <div style="display: flex;">
+                              <div >
+                                  <li style="text-decoration: underline;"><b>Air & Water Cooling</b></li>                                   
+                                  <li><a href="#">All Air & Water Cooling	</a></li>
+                                  <li><a href="#">Cases Fans & Coolers	</a></li>
+                                  <li><a href="#">CPU Fans & Heatsinks</a></li>
+                                  <li><a href="#">Thermal Compound, Paste	</a></li>
+                                  <li><a href="#">Water Cooling Kits</a></li>
+                                  <li><a href="#">Water Cooling Accessories</a></li>
+                              </div>
+                                 
+                          </div> 
+
+                      </ul>
+                  </div>  
+              </li>
+              <li><a href="#">Services <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
+              </svg></a>
+                  <div>
+                      <ul id="Services">
+                          <div style="display: flex;">
+                              <div >
+                                  <li style="text-decoration: underline;"><b>Graphics Cards & Accessories</b></li>                                   
+                                  <li><a href="#">Graphics Cards</a></li>
+                                  <li><a href="#">Graphics Card Accessories</a></li>
+                                  <li><a href="#">TV Tuners, Scan Converters</a></li>
+                                  <li><a href="#">GPU Trade-in Program</a></li>
+                              </div>
+                              <div >
+                                  <li style="text-decoration: underline;"><b>Drives & Storage</b></li>
+                                  <li><a href="#">All Storage</a></li>
+                                  <li><a href="#">Internal SSDs</a></li>
+                                  <li><a href="#">External SSDs</a></li>
+                                  <li><a href="#">Internal Hard Drives</a></li> 
+                                  <li><a href="#">External Hard Drives</a></li>
+                                  <li><a href="#">Network Attached Storage</a></li>
+                                  <li><a href="#">CD/DVD/Blu-ray Drives</a></li>
+                              </div>   
+                              <div >
+                                  <li style="text-decoration: underline;"><b>Cases & Accessories</b></li>
+                                  <li><a href="#">Desktop Cases</a></li>
+                                  <li><a href="#">Power Supplies</a></li>
+                                  <li><a href="#">Driver Enclosures/Trays</a></li>
+                                  <li><a href="#">Case Accessories</a></li> 
+                                  <li><a href="#">System Cables</a></li> 
+                              </div>   
+                          </div>
+                          <div style="display: flex;">
+                              <div >
+                                  <li style="text-decoration: underline;"><b>Graphics Cards & Accessories</b></li>                                   
+                                  <li><a href="#">Graphics Cards</a></li>
+                                  <li><a href="#">Graphics Card Accessories</a></li>
+                                  <li><a href="#">TV Tuners, Scan Converters</a></li>
+                                  <li><a href="#">GPU Trade-in Program</a></li>
+                              </div>
+                              <div >
+                                  <li style="text-decoration: underline;"><b>Drives & Storage</b></li>
+                                  <li><a href="#">All Storage</a></li>
+                                  <li><a href="#">Internal SSDs</a></li>
+                                  <li><a href="#">External SSDs</a></li>
+                                  <li><a href="#">Internal Hard Drives</a></li> 
+                                  <li><a href="#">External Hard Drives</a></li>
+                                  <li><a href="#">Network Attached Storage</a></li>
+                                  <li><a href="#">CD/DVD/Blu-ray Drives</a></li>
+                              </div>   
+                              <div >
+                                  <li style="text-decoration: underline;"><b>Cases & Accessories</b></li>
+                                  <li><a href="#">Desktop Cases</a></li>
+                                  <li><a href="#">Power Supplies</a></li>
+                                  <li><a href="#">Driver Enclosures/Trays</a></li>
+                                  <li><a href="#">Case Accessories</a></li> 
+                                  <li><a href="#">System Cables</a></li> 
+                              </div>   
+                          </div>
+
+                      </ul>
+                  </div>
+              </li>
+              <li><a href="#">Community <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
+              </svg></a>
+                  <div>
+                      <ul id="Community">
+                          <div style="display: flex;">
+                              <div >
+                                  <li style="text-decoration: underline;"><b>Air & Water Cooling</b></li>                                   
+                                  <li><a href="#">All Air & Water Cooling	</a></li>
+                                  <li><a href="#">Cases Fans & Coolers	</a></li>
+                                  <li><a href="#">CPU Fans & Heatsinks</a></li>
+                                  <li><a href="#">Thermal Compound, Paste	</a></li>
+                                  <li><a href="#">Water Cooling Kits</a></li>
+                                  <li><a href="#">Water Cooling Accessories</a></li>
+                              </div>
+                              <div >
+                                  <li style="text-decoration: underline;"><b>Expansion Cards </b></li>
+                                  <li><a href="#">Sound Cards</a></li>
+                                  <li><a href="#">IDE/SATA Controllers</a></li>
+                                  <li><a href="#">USB & Firewire Controllers</a></li>
+                                  <li><a href="#">Parallel & Serial Cards</a></li> 
+                                  <li><a href="#">I/O Adapters</a></li>
+                              </div>   
+                              <div>
+                                  <li style="text-decoration: underline;"><b>Laptop Parts</b></li>
+                                  <li><a href="#">Replacement Screens</a></li>
+                                  <li><a href="#">Laptop Batteries</a></li> 
+                              </div>   
+                          </div> 
+
+                      </ul>
+                  </div>  
+              </li>
+              <li><a href="#">Help <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
+              </svg></a>
+                  <div>
+                      <ul id="Help">
+                          <div style="display: flex;">
+                              <div >
+                                  <li style="text-decoration: underline;"><b>Air & Water Cooling</b></li>                                   
+                                  <li><a href="#">All Air & Water Cooling	</a></li>
+                                  <li><a href="#">Cases Fans & Coolers	</a></li>
+                                  <li><a href="#">CPU Fans & Heatsinks</a></li>
+                                  <li><a href="#">Thermal Compound, Paste	</a></li>
+                                  <li><a href="#">Water Cooling Kits</a></li>
+                                  <li><a href="#">Water Cooling Accessories</a></li>
+                              </div>
+                                
+                          </div> 
+
+                      </ul>
+                  </div>  
+              </li>
+          </ul>
+      </div>
+  </div>
+  <div class="panel-options " style="display: flex;">
+        
+    <div class="panel-all">
+        <a href="#" style="text-decoration: none;"><p>Top Deals</p>
+                 <div class="hover-menu">
+                <ul >
+                    <li><a href="#">PC Parts</a></li>
+                    <li><a href="#">Processors</a></li>
+                    <li><a href="#">SSDs</a></li>
+                    <li><a href="#">Memory</a></li>
+                    <li><a href="#">Laptops</a></li>
+                    <li><a href="#">Gaming Laptops</a></li>
+                    <li><a href="#">Desktops</a></li>
+                    <li><a href="#">Apple</a></li>
+                    <li><a href="#"> Monitors</a></li>
+                    <li><a href="#"> Televisions</a></li>
+                </ul>
+            </div> 
+        </a>
+    </div>   
+    <div class="panel-all">
+        <a href="#" style="text-decoration: none;"><p>PC Parts</p>
+        <div class="hover-menu">
+            <ul >
+                <li><a href="#">Processors/CPUs</a></li>
+                <li><a href="#">Graphics Cards</a></li>
+                <li><a href="#">Motherboards</a></li>
+                <li><a href="#">Computer Memory</a></li>
+                <li><a href="#">Drives & Storage</a></li>
+                <li><a href="#">Computer Cases</a></li>
+                <li><a href="#">Air & Water Cooling</a></li>
+                <li><a href="#">Custom PC Builder</a></li>
+            </ul>
+        </div> 
+    </a>
+</div>   
+<div class="panel-all">
+    <a href="#" style="text-decoration: none;"><p>Computers</p>
+    <div class="hover-menu">
+        <ul >
+            <li><a href="#">Desktop Computers</a></li>
+            <li><a href="#">Laptop/Notebooks</a></li>
+            <li><a href="#">Small Business</a></li>
+            <li><a href="#">Workstations</a></li>
+            <li><a href="#">Servers</a></li>
+        </ul>
+    </div> 
+</a>
+</div>  
+<div class="panel-all">
+<a href="#" style="text-decoration: none;"><p>Apple</p>
+         <div class="hover-menu">
+        <ul >
+            <li><a href="#">MAC Book</a></li>
+            <li><a href="#">MAC Desktops</a></li>
+            <li><a href="#">iPad</a></li>
+            <li><a href="#">Apple Watch</a></li>
+            <li><a href="#">AirPods</a></li>
+            <li><a href="#">Beats</a></li>
+            <li><a href="#">Accessories</a></li>
+         </ul>
+    </div> 
+</a>
+</div>  
+<div class="panel-all">
+<a href="#" style="text-decoration: none;"><p>Services</p>
+<div class="hover-menu">
+    <ul >
+        <li><a href="#">Schedule Service</a></li>
+        <li><a href="#">All Service and Repair</a></li>
+        <li><a href="#">Computer Repair</a></li>
+        <li><a href="#">Apple Repair</a></li>
+        <li><a href="#">Laptop Battery Replacement</a></li>
+        <li><a href="#">Laptop Screen Replacement</a></li>
+        <li><a href="#">GPU Trade-in Program</a></li>
+        <li><a href="#">Virus Removal</a></li>
+        <li><a href="#">Data Recovery</a></li>
+        <li><a href="#">Custom Built PCs </a></li>
+    </ul>
+</div> 
+</a>
+</div>
+
+    <a href="#" style="text-decoration: none;"> <p>Help</p></a>
+    <a href="#" style="text-decoration: none;"> <p>Community</p></a>
+</div> 
+  
+ 
+  </div>
+
+
+
+
+
+          <!--All dashboard code end-->
+ 
+          <!--coursel images code start-->
+         
+          <!--coursel images code end-->
+         
+ 
+ 
+    </header> 
+
+
+
+ <!-- services (footer)-->
+
+ 
+ <h6 style="padding-left: 120px;"><a href="homepage.html" >Home</a></button>|<a href="MicroCenterServices.html" >Services</a></button></h6>
+ <div class="row" style="margin: 50px; padding-left: 30px;">
+     <div class="col-2"></div>
+        <div class="row">
+          <div class="col-12" style="margin: 20px; padding-left: 40px; padding-top: 25px; padding-right: 240px; padding-bottom: 100%; border-radius: 8px; background-color: rgb(246, 242, 242);">
+            <div class="row">    
+              <div class="col-5" style="background-color: rgb(255, 255, 255); width: 450px; height: 360px; padding-top: 20px;">
+                  <h4 style="padding-left: 15px; padding-top: 20px; font-size: 10px; color:rgb(171, 161, 161)"><b>MICRO CENTER KNOWLEDGE BAR</b></h4>
+                     <h3 style="font-size: 53px;">Computer Repair,<br> Builds, and Support</h3>
+                       <div class="row">
+                           <div class="col-3" style="margin: 20px; padding-left: 10px;">
+                             <button style="color: rgb(13, 13, 13); background-color: rgb(65, 167, 208); width: 5.5cm; height: 1cm; 
+                                  border-radius: 10px; position: relative;"> <a href="#" style="color:aliceblue;text-decoration: none;">SCHEDULE NOW</a></button>
+                           </div>
+                           <div  class="col-3" style="margin: 20px; padding-left: 70px;">
+                              <button style="color: rgb(13, 13, 13); background-color: rgb(6, 87, 113); width: 4.5cm; height: 1cm; 
+                              border-radius: 10px; position: relative;"> <a href="#" style="color:aliceblue;text-decoration: none;" >CHECK STATUS</a></button>
+                           </div>
+                           
+                      </div>
+              </div>
+                <div class="col-5">
+                    <img style="width: 550px; height: 360px;" src="https://60a99bedadae98078522-a9b6cded92292ef3bace063619038eb1.ssl.cf2.rackcdn.com/images_Service_2023Assets_Untitled-1.png"
+                            alt="Micro Center services">
+               </div>
+            </div>  
+
+            <h2  style="padding-top:10px">Our Service Offerings</h2>
+            <div class="row">
+              <div class="col-6"> 
+                <p> Our OEM and A+ Certified Technicians can help with any computer repair or service need. Repairs are completed in 
+                    each store, giving you peace of mind and a quick turnaround. Walk-ins are welcome at any one of our nationwide locations, 
+                    or schedule a service appointment.</p>
+              </div>
+              <div class="col-6">
+                <div class="row">
+                     <div class="col-3"><img style="width: 130px; height: 120px; padding-bottom: 10px;" src="https://60a99bedadae98078522-a9b6cded92292ef3bace063619038eb1.ssl.cf2.rackcdn.com/images_Service_2023Assets_service_offerings_repair2.png"
+                          alt="Laptop Repair"><p><a style="text-decoration: none; text-align: end" href ="#">Repair</a></p></div>
+                        <div class="col-3"><img style="width: 130px; height: 120px; padding-bottom: 10px;" src="https://60a99bedadae98078522-a9b6cded92292ef3bace063619038eb1.ssl.cf2.rackcdn.com/images_Service_2023Assets_service_offerings_build2.png"
+                                     alt="Build"><a style="text-decoration: none; text-align: end" href ="#">Build</a></p></div>
+                                     <div class="col-3"><img style="width: 150px; height: 120px; padding-bottom: 10px;" src="https://60a99bedadae98078522-a9b6cded92292ef3bace063619038eb1.ssl.cf2.rackcdn.com/images_Service_2023Assets_service_offerings_upgrade.png"
+                                            alt="Upgrade"><a style="text-decoration: none; text-align: end" href ="#">Upgrade</a></p></div>
+                                            <div class="col-3"><img style="width: 170px; height: 120px; padding-bottom: 10px; padding-right: 20px;" src="https://60a99bedadae98078522-a9b6cded92292ef3bace063619038eb1.ssl.cf2.rackcdn.com/images_Service_2023Assets_service_offerings_service.png"
+                                                          alt="Support"><a style="text-decoration: none; text-align: center" href ="#">Support</a></p></div>
+                </div>
+              </div>
+            </div>
+            <h2  style="padding-top:10px; font-size: 34px;">Featured Services</h2>
+          </div>
+          
+        </div>
+              
+     <div class="col-2"></div>
+     
+ </div>
+
+
+
+
+
+
+
+   
+
+     <!-- footer body-->
+
+     <footer class="footer">
+		<div class="container">
+			<div class="row" style="border-bottom: 1px solid rgb(91, 82, 82); padding: 1%;">
+				<div class="footer-col">
+					<h4>Customer Service</h4>
+                    <ul style="margin: 0;padding: 0;">
+                        <li style="margin: 0;padding: 0;"><a href="howtoreturn.html">How To Return</a></li>
+                        <li style="margin: 0;padding: 0;"><a href="MicroCenterServices.html">Services</a></li>
+                        <li style="margin: 0;padding: 0;"><a href="FAQ.html">FAQ</a></li>
+                        <li style="margin: 0;padding: 0;"><a href="safeShoppingPromise.html">Safe Shopping Promise</a></li>
+                        <li style="margin: 0;padding: 0;"><a href="Recycling.html">Recycling</a></li>
+						<li style="margin: 0;padding: 0;"><a href="ProtectionPlans.html">Protection Plans</a></li>
+						
+					</ul>
+				</div>
+				<div class="footer-col">
+					<h4>Shopping</h4>
+					<ul style="margin: 0;padding: 0;">
+						<li style="margin: 0;padding: 0;"><a href="storelocations.html">Store Locations</a></li>
+						<li style="margin: 0;padding: 0;"><a href="instorepickup.html">In-Store Pickup</a></li>
+						<li style="margin: 0;padding: 0;"><a href="productavailable.html">Product Availability</a></li>
+						<li style="margin: 0;padding: 0;"><a href="OrderRestrictions.html">Online Order Restrictions</a></li>
+						<li style="margin: 0;padding: 0;"><a href="returnpolicy.html">Return Policy</a></li>
+						<li style="margin: 0;padding: 0;"><a href="creditcard.html">Credit Cards Accepted</a></li>
+						<li style="margin: 0;padding: 0;"><a href="shipping.html">Shipping Options</a></li>
+						
+					</ul>
+				</div>
+				<div class="footer-col">
+					<h4>Company</h4>
+					<ul style="margin: 0;padding: 0;">
+						<li style="margin: 0;padding: 0;"><a href="aboutUS.html">about us</a></li>
+						<li style="margin: 0;padding: 0;"><a href="MicroCenterServices.html">Our services</a></li>
+						<li style="margin: 0;padding: 0;"><a href="privacy.html">privacy policy</a></li>
+					</ul>
+				</div>	
+                <div class="footer-col">
+                    <h4>Resource & Tools</h4>
+                    <ul style="margin: 0;padding: 0;">
+                        <li style="margin: 0;padding: 0;"><a href="career.html">Careers</a></li>
+                        <li style="margin: 0;padding: 0;"><a href="sellToTeknoCenter.html">Sell to Tekno Center</a></li>
+                        <li style="margin: 0;padding: 0;"><a href="businessService.html">Business Services</a></li>
+                        <li style="margin: 0;padding: 0;"><a href="siteMap.html">Site Map</a></li>
+                    </ul>
+                    </div>
+			</div>
+			<br>
+            <div class="row" style="border-bottom: 1px solid rgb(91, 82, 82); padding: 1%;">
+			<div class="row bottom-section">
+				<div class="col-3">
+					<img style="width: 160px;height: 70px;" src="teknocenetrlogo.png"
+					alt="Micro Center">
+				</div>
+				<div class="col-6">
+					<h6 class="bottom-text"><a href="#">About Tekno Center</a>
+					<a href="#">Accessibility Policy</a>
+					<a href="#">Privacy Policy</a>
+					<a href="#">California, Colorado, and Virginia Privacy Rights</a>
+					<a href="#">Do Not Sell Or Share My Information</a>
+				    <a href="#">Copyrights & Trademarks</a>
+					<a href="#">Terms and Conditions</a></h6>
+				</div>
+        
+				<div class="footer-col">
+					<h4>follow us</h4>
+					<div class="social-links">
+						<a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+              <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+            </svg></a>
+						<a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+              <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+            </svg></a>
+						<a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+              <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+            </svg></a>
+						<a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+              <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15"/>
+            </svg></a>
+					</div>
+				</div>
+      
+			</div>
+            </div>
+		</div>
+	</footer>
+
+   <script src="MicroCenterServices.js"></script> 
+</body>
+</html>

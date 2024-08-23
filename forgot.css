@@ -1,0 +1,196 @@
+
+	
+.micro-center-name-image-width{
+height: 65px;
+width: 200px;
+}
+
+.background-image{
+background-image: url("Teknocenterbackground.png");
+background-size: cover;
+
+
+
+}
+
+#nav-item{
+margin-right: 10px;
+}
+
+.transparent-container{
+background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent white background */
+padding: 10px 25px 10px 25px;
+border-radius: 10px;
+width: cover; /* Adjust the percentage width as needed */
+height: cover;
+margin-top: 2%;
+
+color: whitesmoke;
+text-align: center;
+margin-bottom:3%;
+} 
+
+table {
+border-collapse: separate;
+border-spacing: 10px; /* Adjust the value to set the desired spacing */
+}
+
+.details-style{
+font-size: 18px;
+text-align: left;
+width: 48%;
+}
+
+.table-width{
+width: 55%;
+}
+@media screen and (max-width: 768px) {
+        /* Adjust styles for screens with a maximum width of 768 pixels */
+        .transparent-container {
+            margin-left: 5%;
+        }
+
+        .details-style,
+        .table-width {
+            width: 100%;
+        }
+    }
+
+ .login-container input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+.password-container {
+  position: relative;
+  color: rgb(223, 17, 17);
+}
+
+.password-toggle {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color:rgb(48, 222, 13)
+}
+
+a{
+    text-decoration: none;
+}
+
+@media (max-width){
+    a{
+        color: blue;
+    }
+}
+a:hover {
+    text-decoration: underline;
+}
+
+  
+/* footer style  */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+	
+.bottom-text {
+    margin:0;
+    padding:0;
+ 
+
+}
+.container{
+    
+    margin:auto;
+padding: 0%;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+padding: 0%;
+}
+li {
+padding: 0;
+margin: 0;
+}
+.footer{
+    background-color: #24262b;
+    
+}
+.footer-col{
+    width: 25%;
+    
+}
+.footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    font-weight: 50px ;
+    position: relative;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left:0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+}
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin:0 0px 0px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+.footer-col {
+width: 50%
+
+}
+}
+@media(max-width: 574px){
+.footer-col {
+width: 100%
+}
+}
+h6 {
+padding: 0;
+margin: 0;
+}
